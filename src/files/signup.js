@@ -130,6 +130,7 @@ const auth = getAuth(app); // Initialize Firebase Auth
                 className='relative border-b border-gray-400 h-10 py-1 sm:py-0 focus:border-green-700 outline-none bg-white opacity-40 border rounded-md px-2 sm:bg-black sm:border-yellow-800 sm:text-white'
                 />
                 {error && !confirmPassword && <p className='text-red-700 text-center font-semibold'>Field is required</p>}
+                {/* {error && !confirmPassword && <p className='text-red-700 text-center font-semibold'>Field is required</p>} */}
             </div>
 
             <div className='w-full flex justify-center my-4 mt-20 sm:mt-1 '>
