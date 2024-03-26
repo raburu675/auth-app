@@ -1,1 +1,1 @@
-# auth-app
+# authentication-app
