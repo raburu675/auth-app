@@ -1,28 +1,15 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom';
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth"; 
+import firebaseConfig from './firebaseConfig';
 
 function Signup() {
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyDxLyFI4_FuhLhVAzcA4Z97Juu6wvPjQ_k",
-  authDomain: "authentication-app-f7486.firebaseapp.com",
-  projectId: "authentication-app-f7486",
-  storageBucket: "authentication-app-f7486.appspot.com",
-  messagingSenderId: "664282712734",
-  appId: "1:664282712734:web:b5ae32bcbbb2dfc9a4c98f"
-};
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
 // // Initialize Firebase Authentication
-const auth = getAuth(app); // Initialize Firebase Auth
+const auth = getAuth(app);
   
 
     //formData to hold state of the input elements
