@@ -8,6 +8,7 @@ const firebaseConfig = {
   storageBucket: "authentication-app-f7486.appspot.com",
   messagingSenderId: "664282712734",
   appId: "1:664282712734:web:b5ae32bcbbb2dfc9a4c98f"
+//   appId: "1:664282712734:web:b5ae32bcbbb2dfc9a4c98f"
 };
 
 export default firebaseConfig;
