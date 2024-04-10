@@ -12,7 +12,7 @@ import firebaseConfig from './firebaseConfig';
 
 
 function Login() {
-    const navigate = useNavigate();
+const navigate = useNavigate();
 
   // Initialize Firebase
 const app = initializeApp(firebaseConfig);
