@@ -1,6 +1,7 @@
+### work in progress
 # authentication-app
 
-## Screenshots
+### Screenshots
 <p allign="center">
 <img src="screenshots/homepage.jpg" alt="hompage" style="padding: 20px" width="200">
 <img src="screenshots/login.jpg" alt="login" style="padding: 20px"width="200">
