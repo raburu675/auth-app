@@ -1,4 +1,4 @@
-### work in progress...
+
 # authentication-app
 
 ### app_UI
